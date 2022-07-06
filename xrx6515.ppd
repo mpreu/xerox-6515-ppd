@@ -499,6 +499,13 @@
 
 *OpenSubGroup: PrintQuality/Print Quality/Color
 
+*OpenUI *XRXColor/Color Correction: PickOne
+*OrderDependency: 48.0 AnySetup *XRXColor
+*DefaultXRXColor: Automatic
+*XRXColor Automatic/Automatic: "<</ProcessColorModel /DeviceCMYK>> setpagedevice"
+*XRXColor BW/Black and White:  "<</ProcessColorModel /DeviceGray>> setpagedevice"
+*CloseUI: *XRXColor
+
 *OpenUI *OutputMode/Print Quality: PickOne
 *OrderDependency: 46.0 AnySetup *OutputMode
 *DefaultOutputMode: Standard
